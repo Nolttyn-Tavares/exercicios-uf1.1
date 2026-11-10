@@ -1,0 +1,5 @@
+<svg xmlns="http://w3.org" viewBox="0 0 100 100">
+    <!-- Isto cria um círculo azul com uma estrela amarela no meio -->
+    <circle cx="50" cy="50" r="45" fill="#007ACC" />
+    <polygon points="50,15 63,38 89,38 68,54 76,80 50,64 24,80 32,54 11,38 37,38" fill="#FFD700" />
+</svg>

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oficina de Olaria</title>
+</head>
+<body>
+<header>
+    <h1>Oficina de Olaria Tradicional de Barcelos</h1>
+    <p>A olaria e o figurado de Barcelos são duas das mais ricas expressões da arte popular portuguesa. Trabalhado há séculos no barro vermelho característico do Minho, o artesanato de Barcelos combina técnicas de moldagem na roda ancestral com a imaginação viva dos mestres barristas.
+</p>
+<p>A nossa oficina comunitária abre portas todas as semanas a quem desejar sujar as mãos no barro, aprender a girar a roda de oleiro e pintar motivos tradicionais do nosso folclore.
+</p>
+<!--ancoras de navegação-->
+<nav>
+<a href="#workshops">Workshops</a> <br/>
+<a href="#horarios">horários</a> <br/>
+<a href="#inscricao">inscrição</a> <br/>
+<a href="#contactos">contactos</a>
+</nav>
+
+</header>
+<main>
+    <!--secssão workshops-->
+<section id="workshops">
+
+    <!--Formação 1-->
+<article>
+<h3>Iniciação à Roda de Oleiro
+</h3>
+<p>Aprenda a centrar o barro na roda manual, a erguer as paredes e a criar as suas primeiras peças utilitárias (tigelas, canecas e pequenos jarros)</p>
+<ul>
+<li>Duração:8 horas(4 sessões de 2 horas)</li>
+<li>Materias:Barro, avental e ferramentas de cortes incluídos</li>
+
+</ul>
+</article>
+
+<!--formação 2-->
+<article>
+<h3>Pintura de Figurado e Galo de Barcelos</h3>
+<p>Descubra a simbologia e as paletas tradicionais da arte popular minhota. Cada formando pinta uma peça moldada em barro cozido e aprende a técnica dos ponteados e florais.
+</p>
+<ul>
+<li>Duração: 4 horas (2 sessões de 2 horas)
+</li>
+<li>Materiais: Peças cozidas, tintas acrílicas tradicionais e pincéis incluídos
+</li>
+
+</ul>
+
+</article>
+
+
+<article>
+<h3>Modelação Manual e Escultura Livre
+</h3>
+<p>Técnicas ancestrais de rolinhos (lastras) e modelação direta com as mãos, sem recurso à roda. Ideal para criar peças decorativas, figuras e máscaras.
+</p>
+
+<ul>
+<li>Duração: 6 horas (3 sessões de 2 horas)</li>
+<li>Materiais: Barro terracota e cozedura em forno elétrico incluídos</li>
+
+
+</ul>
+
+</article>
+
+</section>
+
+<!--sessão 
+Horários e Modalidades
+-->
+<section id="horários">
+
+<table border>
+<caption>
+Horários e Modalidades</caption>
+<thead>
+    <tr>
+<th scope="col">Regime pós laboral</th>
+<th scope="col">Regime de Fim de semana</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Terças e Quintas-feiras</td>
+<td>Sábados</td>
+</tr>
+<tr>
+<td>das 19h00 às 21h00</td>
+<td>das 10h00 às 13h00
+    </tr>
+</td>
+</tbody>
+
+</table>
+
+</section>
+<br/>
+<!--sessão pré inscrição-->
+<section id="inscricao">
+    <form action="#" method="post">
+        
+        
+        <fieldset>
+<legend>Ficha pré inscrição</legend> 
+<!--campo para dados pessoais-->
+<label for="Nome">Seu nome completo</label> 
+<br>
+<input type="text"
+id="nome"
+name="nome"
+placeholder="Ana martins"
+required>
+<br>
+<label for="telemóvel">Telemóvel</label> 
+<br>
+<input type="tel"
+id="telemóvel"
+name="telemóvel"
+placeholder="98 455 323"
+required>
+<br>
+<label for="email">email</label> <br>
+<input type="email"
+id="email"
+name="email"
+placeholder="hokage@exemplo.com"
+required>
+        </fieldset>
+
+<fieldset>
+    <!--dados da formaçao no geral-->
+<legend>Dados da formação:</legend>
+<label for="workshop">Workshop pretendido</label>
+
+<select id="workshop" name="workshop" >
+<option value="1"> Roda de Oleiro</option>
+<option value="2">Pintura de Figurado</option>
+<option value="3">Modelação Manual</option>
+</select> 
+<!--limitar a frequencia-->
+<p>Regime de frequência</p>
+<label for="regime-frequência">Pós Laboral</label>
+<input type="radio"
+name="regime-frequencia"
+> <br>
+
+<label for="regime-frequência">Fim de semana</label>
+<input type="radio"
+name="regime"
+id="regime-frequência"> <br>
+<!--usar checkbox nos dias disponíveis-->
+<p> Dias com disponibilidade</p>
+<label for="dias-disponíveis">Terça-Feira</label>
+<input type="checkbox" id="dias-disponíveis">
+
+<br>
+
+<label for="dias-disponíveis">Quinta-Feira</label>
+<input type="checkbox">
+
+<div>
+<label for="dias-disponíveis">Sabado</label>
+<input type="checkbox"
+></div>
+<br>
+<label for="motivação">Experencia anterior ou menssagem pessoal com expectativas </label>
+<br><textarea id="motivação" minlength="10" maxlength="200" required placeholder="digite sua motivação ou experiencia aqui"></textarea>
+<div>
+    <!--pedir autorização-->
+<label for="Autorização">Autorização para receção de confirmação de vaga por e-mail</label>
+<input type="submit" value="autorizar"
+id="Autorização"
+name="Autorização"></div>
+<!--botão pra reiniciar o formulário-->
+<input type="reset" >
+</fieldset>
+
+</form>
+
+</section>
+
+<section id="contactos">
+    <h2>Contactos e localização</h2>
+    <a href="mailto:contacto@oficinaolaria.com">Correio eletrónico</a> <div>
+    portal informativo: <a href="https://www.oficinaolaria.com" 
+    target="_blank" rel="noopener noreferrer">www.oficinaolaria.com
+    </a>
+</div>
+
+</section>
+
+</main>
+
+
+
+
+
+
+
+
+</body>
+<hr>
+<footer>
+    <p>&copy;2026 Associação dos Artesãos e Oleiros de Barcelos</p>
+</footer>
+
+</html>

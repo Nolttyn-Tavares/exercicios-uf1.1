@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Anilton Tavares" />
+    <meta name="description" content="Página sobre a cidade de Braga, Portugal" />
+    <link rel="icon" type="image/svg+xml" href="imagens/favicon.svg" />
+    <title>A minha cidade: Braga</title>
+
+     
+   <link rel="stylesheet" href="css/estilo.css" />
+
+  </head>
+  <body>
+    <header>
+<img src="imagens/cidade.svg"
+alt="cidade não carregada, atualize a página"
+width="240"
+height="160">
+
+<nav>  
+<ul>
+<li> <a href="#onde-fica">onde-fica</a>   </li>
+<li><a href="#historia">historia</a></li>
+<li> <a href="#visitar">visitar</a></li>
+<li> <a href="#monumentos">monumentos</a></li>
+<li><a href="#ditado">ditado</a>
+</li>
+<li><a href="#sugestões">sugestões</a></li>
+
+</ul>
+
+
+</nav>
+
+
+<abbr title="The paradise city">TPC</abbr>
+
+    <h1>Braga</h1>
+  </header>
+  <main>
+    <p>A cidade onde nasci e onde ainda vivo.</p>
+    
+    <section id="onde-fica">
+    <!-- Onde fica -->
+    <h2>Onde fica</h2>
+    <p>Braga fica no norte de Portugal, no Minho , a uma hora do Porto.</p>
+    <a href="https://www.cm-braga.pt/pt"
+    target="_blank">Visite agora</a>
+  </section>
+<section id="historia">
+    <!-- história -->
+    <h2>Pelo que é conhecida</h2>
+    <p>
+      É uma das <strong>cidades mais antigas do país</strong>: foi fundada pelos
+      <span lang="es" >" los romanos" </span>
+    </p>
+    <p>Tem tantas igrejas que lhe chamam a "cidade dos arcebispos".</p>
+</section>
+
+<search id="visitar">
+    <!-- O que visitar -->
+    <h2>O que visitar</h2>
+   
+     <section id="monumentos">
+    
+      <ul>
+        <li><strong>Monsanto</strong></li>
+        <li><strong>Sortelha</strong></li>
+        <li><strong> piódão</strong></li>
+        <li><strong> Castelo Rodrig</strong>o</li>
+        <li><strong>Belmonte</strong> </li>
+
+      </ul>
+   
+      O Bom Jesus do Monte, com a sua escadaria enorme.
+      <em>Subam a pé, vale a pena!</em>
+     </section>
+<!--formulário--> 
+<section id="formulario-sugestoes">Partilhe uma sugestão sobre a cidade</section>
+<p>Queridos visitantes, convidamos vcs a partilharem as suas sugestões acerca dos seus novos pontos de interesse.
+  sintão-se livres para preencher o formulário abaixo:
+</p>
+<!--parte 1-->
+ <form action="#" method="post">
+<fieldset>
+
+<legend>Sua identificação</legend>
+<label for="Campo-nome">O seu nome</label> <br/>
+<textarea id="Campo-nome" name="mensagem_visitante" minlength="3"  maxlength="60"     placeholder="O seu nome" required></textarea>
+
+<div>
+<label for="Campo-email"> Seu email</label> 
+<input id="Campo-email" type="email" name="mendagem_visitante" placeholder="kage@exemplo" required></div>
+</fieldset>
+
+<!--parte 2-->
+
+ 
+  
+  <fieldset>
+
+    <legend>Digite aqui as suas sugestões/Descrição da recomendação</legend>
+<label for="campo-recomendação-monumento"></label>sugestão de local <br/>
+
+  <textarea id="campo-recomendação-monumento" name="mendagem_visitante" placeholder="sua sugestão de locais" required minlength="20" maxlength="800"></textarea>
+  
+ <br/>
+<p>categoria de locai</p>
+ <select required>
+
+ 
+  <option value="" selected disabled>Seleecionar local</option>
+  <option value="sugestão de locais">Monumento</option>
+<option value="">Miradouro/Natureza</option>
+<option value="">Restaurante/Gastronomia</option>
+<option value="">Museu</option></select>
+ <input type="checkbox">
+ <br/>
+
+<label>
+  <input type="radio" name="estatuto_utilizador" value="turista">
+  Turista
+</label>
+
+<br/>
+
+<label>
+  <input type="radio" name="estatuto_utilizador" value="local">
+  Morador local
+</label>
+
+<br/> <div>
+<label id="autorizar">Autoriza a recollha dos seus dados?</label>
+<input type="checkbox" name="autorização" required> </div>
+<input type="submit"> <br/>
+<button type="reset">Restaurar</button>
+
+</fieldset>
+
+
+
+</form>
+
+
+
+
+    <section>
+    
+    <table border="1">
+    <caption>Principais monumentos</caption>
+    <thead>
+      <tr>
+           <th scope="col">Monumento</th>
+           <th scope="col">construção</th>
+           <th scope="col">Estilos</th>
+           <th scope="col">Classificação</th>
+          
+ </tr>
+    </thead>
+           <tbody>
+            <tr>
+           <td>pelourinho</td>
+           <td>entre 1512 e 1520</td>
+           <td>Manuelino</td>
+           <td>património mundial pela UNESCO</td>
+
+
+
+            </tr>
+            <tr>
+            <td>Fortaleza Real de são filipe</td>
+            <td>século XVI</td>
+            <td> arquitetura militar</td>
+            <td>patrimóno mundial</td>
+
+
+            </tr>
+</tbody>
+
+
+</table>
+
+
+
+ 
+    </section>
+    
+
+
+    <section id="ditado">
+    <!--ditado-->
+    <blockquote><div class="citacao"></div> "la roma es una maravilha" <article class="nome do autor"> el fake spanish </article> </blockquote> </section>
+</search>
+
+  
+</main> 
+    <!-- Rodapé -->
+    <footer>
+    <p>&copy; 2026 Ana Martins</p>
+   
+  </footer>
+  </body>
+</html>

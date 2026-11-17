@@ -1,0 +1,55 @@
+.root{--bcakground-color:#facc15;
+    --texto-secundário:#1c1917;
+}
+body{box-sizing: border-box;
+}
+
+/*se está buscando o culpado do site ser magro é tudo culpa do main*/
+
+main{max-width: 0;
+margin: 0 auto;}
+
+header{background-color: var(--bcakground-color);
+padding: 5px;
+border-bottom: 20px;
+border-color: var(--texto-secundário);
+}
+
+img{background-color: #ffffff;
+padding: 3px;
+border: 5px;
+border-radius: 10px;
+}
+
+nav ul li{display: inline-block;
+padding:2px;
+color: var(--bcakground-color);
+background-color: var(--texto-secundário);
+border-radius: 999px;
+}
+
+.subtitulo{text-transform: uppercase;letter-spacing: 3px;}
+
+h2{border-left: 3px;
+padding-left: 3px;}
+
+.cartao{background-color: #ffffff;
+border-color: var(--texto-secundário);border-top:var(--bcakground-color);
+border-radius: 5px;
+padding: 4px;
+margin-bottom: 4px;
+box-shadow: inset;}
+
+.numero-linha{display: inline-block;
+padding: 4px;
+background-color: var(--bcakground-color);
+border-color: var(--texto-secundário);
+border-radius: 999px;
+
+}
+
+.curiosidade{background-color: rgb(red green blue / alpha);
+}
+
+.aviso{background-color: hsl(hue, saturation, lightness);
+border-style: dashed;}

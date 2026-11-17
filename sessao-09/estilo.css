@@ -1,0 +1,124 @@
+.root {
+   --cor-principal: #4f46e5;
+   --cor-títulos: #1E293B;
+   --cor-realce: #F59E0B;
+   --cor-do-texto: #4F46E5;
+   --texto-secundário: #6B7280;
+   --bordas: #E5E7EB;
+   --background-page: #F9FAFB;
+   --background-cartao: #ffffff;
+
+
+
+
+
+
+
+}
+
+/*base*/
+
+base {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   line-height: 1.6;
+   margin: 0;
+   background-color: var(--background-page);
+}
+
+main {
+   max-width: 760px 860px;
+   margin: 0 auto;
+   padding: 0 16px;
+}
+
+
+/*texto e fontes*/
+h1,
+h2,
+h3 {
+   color: var(--cor-títulos);
+   font-size: 600, 700;
+   margin: 3;
+}
+
+p {
+   color: var(--cor-do-texto);
+   margin: 4;
+}
+
+
+
+
+/*cabeçalho, menu e rodapé*/
+header {
+   background-color: var(--background-page);
+   padding: 20pt;
+
+}
+
+img {
+   border: 2px;
+   border-color: var(--bordas);
+   border-radius: 10px;
+   box-shadow: 2px;
+}
+
+nav ul li {
+   display: inline-block;
+   padding: 2px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   color: var(--cor-principal)
+}
+
+/*tabelas e formulários*/
+input {
+   font-family: inherit;
+   padding: 2px;
+   border: 2px;
+   border-radius: 10px;
+
+}
+
+select {
+   font-family: inherit;
+   padding: 2px;
+   border: 2px;
+   border-radius: 10px;
+}
+
+textarea {
+   font-family: inherit;
+   padding: 2px;
+   border: 2px;
+   border-radius: 10px;
+   width: 100%;
+}
+
+
+/*classes*/
+.cartao {
+   padding: 2px;
+   border: 2px;
+   border-radius: 10px;
+   margin-bottom: 9px;
+   box-shadow: 2px rgba(red, green, blue, alpha);
+   background-color: var(--background-cartao);
+}
+
+.aviso {
+   background: hsl(hue, saturation, lightness);
+   border-left: 2px;
+   border-color: var(--bordas);
+}
+
+.botao {
+   padding: 5px;
+}
+
+
+/*ids*/

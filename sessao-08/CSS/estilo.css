@@ -21,7 +21,7 @@ body {
 h1,
 h2,
 h3 {
-  color: #334155;
+  color:var(--cor-texto);
 }
 h2 {
   border: bottom 2px solid #0f172a;
